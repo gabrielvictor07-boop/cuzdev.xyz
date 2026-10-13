@@ -1,0 +1,192 @@
+{
+  "z-town": {
+    "src": "/assets/shots/z-town.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-neon": {
+    "src": "/assets/shots/z-neon.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-desert": {
+    "src": "/assets/shots/z-desert.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-forest": {
+    "src": "/assets/shots/z-forest.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-fire": {
+    "src": "/assets/shots/z-fire.webp",
+    "width": 1324,
+    "height": 745
+  },
+  "z-void": {
+    "src": "/assets/shots/z-void.webp",
+    "width": 1324,
+    "height": 745
+  },
+  "z-skills": {
+    "src": "/assets/shots/z-skills.webp",
+    "width": 1324,
+    "height": 745
+  },
+  "z-contracts": {
+    "src": "/assets/shots/z-contracts.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-story": {
+    "src": "/assets/shots/z-story.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-bloodmoon": {
+    "src": "/assets/shots/z-bloodmoon.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-shelter": {
+    "src": "/assets/shots/z-shelter.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-snow": {
+    "src": "/assets/zzzombie-snow-dawn.webp",
+    "width": 1600,
+    "height": 900
+  },
+  "z-inventory": {
+    "src": "/assets/shots/z-inventory.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-effects": {
+    "src": "/assets/shots/z-effects.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-workshop": {
+    "src": "/assets/shots/z-workshop.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-polar": {
+    "src": "/assets/shots/z-polar.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-choice": {
+    "src": "/assets/shots/z-choice.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-satoshi": {
+    "src": "/assets/shots/z-satoshi.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-light": {
+    "src": "/assets/shots/z-light.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-coast": {
+    "src": "/assets/shots/z-coast.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-survival": {
+    "src": "/assets/shots/z-survival.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-rest": {
+    "src": "/assets/shots/z-rest.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-coop": {
+    "src": "/assets/shots/z-coop.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "z-split": {
+    "src": "/assets/shots/z-split.webp",
+    "width": 1365,
+    "height": 768
+  },
+  "f-action": {
+    "src": "/assets/shots/f-action.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-guardian": {
+    "src": "/assets/shots/f-guardian.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-watcher": {
+    "src": "/assets/shots/f-watcher.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-journey": {
+    "src": "/assets/shots/f-journey.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-traveler": {
+    "src": "/assets/shots/f-traveler.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-active": {
+    "src": "/assets/shots/f-active.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-turret": {
+    "src": "/assets/shots/f-turret.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-appearance": {
+    "src": "/assets/shots/f-appearance.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-cache": {
+    "src": "/assets/shots/f-cache.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-camp": {
+    "src": "/assets/shots/f-camp.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-challenge": {
+    "src": "/assets/shots/f-challenge.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-forge": {
+    "src": "/assets/shots/f-forge.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-frost": {
+    "src": "/assets/shots/f-frost.webp",
+    "width": 640,
+    "height": 360
+  },
+  "f-ash": {
+    "src": "/assets/shots/f-ash.webp",
+    "width": 640,
+    "height": 360
+  }
+}
