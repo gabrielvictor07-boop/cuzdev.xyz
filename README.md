@@ -1,11 +1,13 @@
 # CUZDEV
 
-The English-language landing page for **cuzdev.xyz**.
+The multilingual CUZDEV studio and game website for **cuzdev.xyz**.
 
 ## Contents
 
 - Independent, AI-assisted game-development introduction.
-- ZZZombie Assault and FlokiHeaven development showcases.
+- Dedicated ZZZombie Assault and Floki Heaven pages with system-by-system explanations and matching screenshots.
+- English, Brazilian Portuguese, Spanish, German, French and Italian on all three pages: 18 static localized routes.
+- Original Akashi wind-idle, Satoshi three-strike sword combo and Floki running sprites, with pause and reduced-motion support.
 - Real project screenshots and keyboard-accessible galleries.
 - Responsive layout, self-hosted fonts, and an email contact link.
 - No trackers, cookies, build dependencies, or third-party runtime requests.
@@ -14,13 +16,22 @@ Both games are in development. No release dates, storefronts, or playable-downlo
 
 ## Edit / preview
 
-Edit `index.html`, `styles.css`, or `script.js`. For a local preview, run:
+Edit translated copy in `content/<language>.json`. All six files must have the same structure; there is no English fallback. Generate pages with the standard-library-only builder, then run the route tests:
+
+```sh
+python tools/build_site.py
+python -m unittest discover -s tests -v
+```
+
+Layout is in `styles.css` and `pages.css`; behavior is in `site.js`. The old `script.js` is retained for history but is not loaded by the generated pages. For a local preview, run:
 
 ```sh
 python -m http.server 8784 --bind 127.0.0.1
 ```
 
 Then open `http://127.0.0.1:8784`.
+
+The English pages are `/`, `/zzzombie-assault/` and `/floki-heaven/`. Other languages use `/pt-br/`, `/es/`, `/de/`, `/fr/` and `/it/` prefixes. The language selector preserves the current game. Content is readable without JavaScript; galleries and sprite animation use it. Text inside original screenshots retains the captured build's language.
 
 ## Hosting
 

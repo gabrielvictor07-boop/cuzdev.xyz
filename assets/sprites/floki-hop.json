@@ -1,0 +1,1 @@
+{"image": "/assets/sprites/floki-hop.webp", "width": 22, "height": 32, "anchor": [11, 30], "frames": [{"x": 0, "y": 0, "ms": 160}, {"x": 22, "y": 0, "ms": 160}, {"x": 44, "y": 0, "ms": 160}, {"x": 66, "y": 0, "ms": 160}], "hold": 0}
