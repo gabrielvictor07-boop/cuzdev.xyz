@@ -30,4 +30,6 @@ The domain and DNS remain managed at Hostinger. Website records point to GitHub 
 
 ## Assets
 
+The ZZZombie Assault lead screenshot shows Aurora Refuge at dawn, captured in the game with the HUD hidden. It is a staged development capture, not an uninterrupted playthrough. Its WebP export preserves the original rendered pixels without color grading or thumbnail overlays.
+
 Game screenshots belong to their respective game creators and are included for this website's promotional use. They are not a general-purpose asset pack. Self-hosted Barlow Condensed and Space Grotesk fonts are distributed under their included SIL Open Font License files in `assets/fonts/`.

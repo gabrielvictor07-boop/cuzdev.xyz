@@ -28,7 +28,7 @@
       title: 'ZZZombie Assault',
       pixel: false,
       images: [
-        ['assets/zzzombie-world.webp', 'Abandoned roads, a survivor, and a world to explore.'],
+        ['assets/zzzombie-snow-dawn.webp', 'Aurora Refuge at dawn: warm light and long shadows across the snow.'],
         ['assets/zzzombie-neon.webp', 'Neo-Vale: neon lights in a rain-soaked city.'],
         ['assets/zzzombie-wilderness.webp', 'Deep wilderness, shifting weather, and the road ahead.'],
         ['assets/zzzombie-desert.webp', 'Desert roads beyond the towns and forests.']
@@ -59,8 +59,9 @@
     picture.src = src;
     picture.alt = description;
     picture.classList.toggle('pixel-art', album.pixel);
-    picture.width = album.pixel ? 640 : 1365;
-    picture.height = album.pixel ? 360 : 768;
+    const snow = src.endsWith('zzzombie-snow-dawn.webp');
+    picture.width = album.pixel ? 640 : (snow ? 1600 : 1365);
+    picture.height = album.pixel ? 360 : (snow ? 900 : 768);
     title.textContent = album.title;
     caption.textContent = description;
     count.textContent = `${currentIndex + 1} / ${album.images.length}`;
